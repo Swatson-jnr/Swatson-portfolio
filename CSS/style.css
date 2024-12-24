@@ -1,0 +1,230 @@
+body{
+    background:  #080808;
+    color: #fff;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+}
+.row .home-content{
+    padding-top: 4rem;
+}
+
+.imagery img{
+    /* border-radius: 50%; */
+    margin-left: 20px;
+    padding-top: 10px
+}
+
+.row .imagery img{
+    width: 400px;
+   border-radius: 80px;
+   animation: floating 2s ease-in-out infinite;
+}
+
+.home{
+    margin-bottom: 10rem;
+}
+
+.text-style{
+    font-size: 3rem;
+    padding-DDDD:;
+    font-family: sans-serif;
+    border-right: 1px solid #00ffee;
+    /* width: 100%; */
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 4s steps(23) infinite;
+}
+
+@keyframes typing{
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 22ch;
+    }
+    100%{
+        width: 0ch;
+    }
+}
+
+
+
+.socials ul{
+    padding: 0;
+}
+
+
+.socials ul li{
+    list-style: none;
+}
+
+
+.socials ul li img{
+    width: 20px;
+    border-radius: 40px;
+    mix-blend-mode: screen;
+}
+
+.socials ul li img:hover{
+    box-shadow: 0 0 25px #59b2f4;
+}
+
+@keyframes floating{
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-2.4rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.socials ul li a{
+    padding-left: 10px;
+}
+
+.btn{
+    outline: none;
+    border: 2px solid #00ffee;
+}
+
+
+.btn:hover{
+    background: #080808;
+    color: #00ffee;
+    box-shadow: 0px 0px 20px #00ffee;
+}
+
+
+.about-img img{
+    border-radius: 10px;
+    border: 12px solid #191f36;
+    cursor: pointer;
+}
+.card {
+    background: #191f36;
+    border: 2px solid #000;
+    /* height: 270px; */
+    transition: .5s ease;
+    cursor: pointer;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.card:hover{
+    border-color: #00ffee;
+    transform: scale(1.02);
+    
+}
+
+.service span{
+    color: rgba(221, 94, 9, 0.897);
+}
+
+.service .row .card button a{
+    text-decoration: none;
+    color: #000;
+}
+
+.service .row .card button a:hover{
+    color: #fff;
+}
+
+.projects{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    cursor: pointer;
+}
+
+.projects a{
+    text-decoration: none;
+    color: #00ffee;
+}
+.projects h1{
+    margin-bottom: 20px;
+}
+
+.projects span{
+    color: #191f;
+    font-size: 40px;
+    /* font-weight: bolder; */
+    box-shadow: 0 0 0px #00ffee;
+    background: none;
+    /* border: 2px solid #191f36; */
+    border-radius: 10px;
+    outline: none;
+    background-color:#080808;
+}
+
+.projects img{
+    width: 100%;
+    border-radius: 20px;
+    opacity: 0.7;
+    transition: .3s ease;
+}
+
+.projects img:hover{
+    transform: scale(1.1);
+}
+
+.projects .box{
+    position: relative;
+    /* box-shadow: 0 0 1rem #00ffee; */
+    overflow: hidden;
+}
+
+.projects .layer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(100%);
+    transition: .3s ease;
+}
+
+.projects .box:hover .layer{
+    transform: translateY(0);
+}
+
+form{
+    /* width: 500px;
+    height: 280px; */
+    margin-bottom: 40px;
+}
+
+form .name, .email, .contact, .e-sub{
+   width: 27rem;
+   height: 50px;
+   margin: 10px;
+   outline: none;
+   border-radius: 10px;
+   border: 1px solid #080808;
+   padding: 5px;
+   background: #191f36;
+   color: #fff;
+}
+
+textarea{
+    width: 80%;
+    height: 300px;
+    margin: 10px;
+    padding: 5px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #080808;
+    background: #191f36;
+    color: #fff;
+    resize: none;
+}
+
+footer{
+    font-size: 20000px;
+}
+
